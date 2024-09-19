@@ -10,7 +10,8 @@ import CopyrightIcon from "@mui/icons-material/Copyright";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import * as LottiePlayer from "@lottiefiles/lottie-player";
+// import * as LottiePlayer from "@lottiefiles/lottie-player";
+import "@lottiefiles/lottie-player";
 import { useState } from "react";
 
 export default function Contact() {
@@ -199,7 +200,7 @@ export default function Contact() {
               <div
                 title="Github"
                 onClick={() =>
-                  window.open("https://github.com/daniel-jebarson", "_blank")
+                  window.open("https://github.com/AnirudhanSS", "_blank")
                 }
               >
                 <GitHubIcon className="cursor-pointer hover:scale-105" />

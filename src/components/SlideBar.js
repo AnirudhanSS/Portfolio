@@ -2,7 +2,8 @@ import "../App.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
+// import FacebookIcon from "@mui/icons-material/Facebook";
+import MailOutlineOutlinedIcon from '@mui/icons-material/MailOutlineOutlined';
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
@@ -130,7 +131,7 @@ export default function Slidebar() {
         <div
           title="Github"
           onClick={() =>
-            window.open("https://github.com/Anirudhanx", "_blank")
+            window.open("https://github.com/AnirudhanSS", "_blank")
           }
         >
           <GitHubIcon className="cursor-pointer hover:scale-105" />
@@ -138,7 +139,7 @@ export default function Slidebar() {
         <div
           title="Instagram"
           onClick={() =>
-            window.open("https://www.instagram.com/daniel_diago2003", "_blank")
+            window.open("https://www.instagram.com/anirudhan1221/", "_blank")
           }
         >
           {" "}
@@ -148,7 +149,7 @@ export default function Slidebar() {
           title="Linkedin"
           onClick={() =>
             window.open(
-              "https://www.linkedin.com/in/daniel-jebarson-k-a727a822a",
+              "https://www.linkedin.com/in/anirudhanss/",
               "_blank"
             )
           }
@@ -157,12 +158,12 @@ export default function Slidebar() {
           <LinkedInIcon className="cursor-pointer hover:scale-105" />
         </div>
         <div
-          title="Facebook"
+          title="Mail"
           onClick={() =>
-            window.open("https://www.facebook.com/daniel.jebarson.9", "_blank")
+            window.open("mailto:anirudhan1221@gmail.com", "_blank")
           }
         >
-          <FacebookIcon className="cursor-pointer hover:scale-105" />
+          <MailOutlineOutlinedIcon className="cursor-pointer hover:scale-105" />
         </div>
       </div>
     </div>
